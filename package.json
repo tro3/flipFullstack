@@ -1,0 +1,37 @@
+{
+  "name": "flip-fullstack",
+  "version": "0.0.0",
+  "main": "server/app.js",
+  "dependencies": {
+    "express": "",
+    "body-parser": "",
+    "ramda": "",
+    "jade": "",
+    "mongoose": "",
+    "morgan":"",
+    "errorhandler":""
+  },
+  "devDependencies": {
+    "connect-livereload": ""
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "coffee server/server.coffee",
+    "test": "mocha",
+    "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
+  },
+  "private": false,
+  "description": "Flip conversion of angular fullstack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tro3/flipFullstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tro3/flipFullstack/issues"
+  },
+  "homepage": "https://github.com/tro3/flipFullstack#readme"
+}
